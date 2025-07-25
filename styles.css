@@ -259,6 +259,58 @@ li a {
   color: white;
 }
 
+/* Flower Lover */
+.container-flower-lover {
+  padding: 25px 25px;
+}
+
+.container-flower-lover-text {
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.flower-lover-image {
+  position: relative;
+  flex: 1 1 500px;
+}
+
+.flower-lover-image img {
+  width: 50%;
+  margin-left: 50%;
+}
+.flower-lover-image .badge {
+  position: absolute;
+  width: 200px;
+  top: -65px;
+  right: -65px;
+}
+
+.flower-lover-content {
+  flex: 1 1 500px;
+}
+
+.flower-lover-content h2 {
+  font-size: 3.125rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-family: noto-serif-font;
+}
+
+.flower-lover-content ul {
+  list-style: disc;
+  padding-left: 55px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.375rem;
+}
+
+.flower-lover-content ul li {
+  margin-bottom: 15px;
+}
+
+
 /* Subscribe Section */
 .subscribe-section {
   background: url('./assets/news-letter-bg.png') no-repeat center center/cover;
@@ -441,6 +493,32 @@ li a {
   .btn-primary {
     padding: 0.5rem 0;
     width: 100%;
+  }
+ .container-flower-lover-text {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .flower-lover-content {
+    padding: 0;
+    margin-top: -80px;
+  }
+
+  .flower-lover-image img {
+  width: 100%;
+  margin: auto;
+}
+
+  .flower-lover-content ul {
+    padding-left: 0;
+    list-style-position: inside;
+  }
+
+  .flower-lover-content h2 {
+    font-size: 1.5rem;
+  }
+  .flower-lover-image .badge {
+    display: none;
   }
 
   .deals-container {
